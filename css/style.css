@@ -87,6 +87,7 @@ body{
 
 #contact h1{
     text-align: center;
+    color: skyblue;
 }
 
 .form__input{
@@ -111,3 +112,46 @@ body{
 }
 
 
+.name-email{
+    display: flex;
+    justify-content: space-around;
+}
+
+.name-email .form__input{
+    width: 600px;
+}
+
+.form__field--m{
+    margin-left: 25px;
+    margin-top: 20px;
+}
+
+.form__field--m .form__input{
+    width: 1275px;
+}
+
+.form__button{
+    margin-top: 20px;
+    text-align: center;
+}
+
+#contact{
+    background-color: rgb(18, 145, 196);
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.form__label{
+    color: #fff;
+}
+
+.footer__heading{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-left: 50px;
+}
+
+.social-media{
+    float: right;
+    margin-top: -60px;
+    margin-right: 50px;
+}
